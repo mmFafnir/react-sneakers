@@ -24,15 +24,15 @@ function Header({setCartOpen}) {
       </div>
       <div className="header__right">
         <ul className="header__info">
-          <li onClick={() =>  setCartOpen(true)}><img src="/img/basket.svg" alt=""/> <p></p></li>
+          <li onClick={() =>  setCartOpen(true)}><img src="/react-sneakers/img/basket.svg" alt=""/> <p></p></li>
           <li>
             <Link to="/favorites">
-              <img src="/img/like.svg" alt=""/>
+              <img src="/react-sneakers/img/like.svg" alt=""/>
             </Link>
           </li>
           <li>
             <Link to="/orders">
-              <img src="/img/akk.svg" alt=""/>
+              <img src="/react-sneakers/img/akk.svg" alt=""/>
             </Link>
           </li>
         </ul>

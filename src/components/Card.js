@@ -90,7 +90,7 @@ function Card({name, price, imgUrl, parenId , id, loading}) {
               >
                   <i className="fas fa-heart"></i>
               </button>          
-              <img src={imgUrl} alt=""/>
+              <img src={`/react-sneakers${imgUrl}`} alt=""/>
             </div>
             <div className="card__title">
               <h2>{name}</h2>

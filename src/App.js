@@ -33,12 +33,12 @@ function App() {
           setCartOpen={setCartOpen}
         />
         <Switch>
-          <Route path="/favorites">
+          <Route path="/react-sneakers/favorites">
             <Favorites
  
             />
           </Route>
-          <Route exact path="/" >
+          <Route exact path="/react-sneakers" >
             <Home 
               loading={loading}
               error={error}
@@ -46,7 +46,7 @@ function App() {
             />
           </Route>
 
-          <Route exact path="/orders" >
+          <Route exact path="/react-sneakers/orders" >
             <Orders />
           </Route>
 
