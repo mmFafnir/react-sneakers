@@ -13,7 +13,7 @@ function Header({setCartOpen}) {
        <Link to="/">
          <div className="header__logo logo">
             <div className="logo__img">
-              <img src="/img/logo.svg" alt=""/>
+              <img src="/react-sneakers/img/logo.svg" alt=""/>
             </div>
             <div className="logo__text">
               <h2>REACT SNEAKERS</h2>

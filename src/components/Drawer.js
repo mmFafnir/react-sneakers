@@ -53,7 +53,7 @@ function Drawer({ setCartOpen}) {
   } 
   
   const totalPrice = data.reduce((a, b) => a + (b.price || 0), 0) 
-  const totalPercent = totalPrice/100 * PERCENT
+  const totalPercent = Math.ceil(totalPrice/100 * PERCENT)
   
 
 
