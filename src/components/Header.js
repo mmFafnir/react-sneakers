@@ -10,7 +10,7 @@ function Header({setCartOpen}) {
   return (
     <header className="header">
       <div className="header__left">
-       <Link to="/react-sneakers">
+       <Link to="/">
          <div className="header__logo logo">
             <div className="logo__img">
               <img src="/react-sneakers/img/logo.svg" alt=""/>
@@ -26,12 +26,12 @@ function Header({setCartOpen}) {
         <ul className="header__info">
           <li onClick={() =>  setCartOpen(true)}><img src="/react-sneakers/img/basket.svg" alt=""/> <p></p></li>
           <li>
-            <Link to="/react-sneakers/favorites">
+            <Link to="/favorites">
               <img src="/react-sneakers/img/like.svg" alt=""/>
             </Link>
           </li>
           <li>
-            <Link to="/react-sneakers/orders">
+            <Link to="/orders">
               <img src="/react-sneakers/img/akk.svg" alt=""/>
             </Link>
           </li>

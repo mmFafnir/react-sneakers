@@ -12,7 +12,7 @@ import sneakersReducer from "./sneakers";
 
 
 
-export const history = createBrowserHistory()
+export const history = createBrowserHistory({ basename: '/react-sneakers' })
 
 const initial = {
 
