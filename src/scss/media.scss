@@ -1,0 +1,12 @@
+
+@media (max-width: 950px) {
+    .content{
+
+        &__body{
+            flex-wrap: wrap;
+        }
+    }
+    .card{
+        flex: 0 0 250px
+    }
+}

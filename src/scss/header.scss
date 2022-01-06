@@ -1,0 +1,33 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 128px;
+  overflow: hidden;
+  border-bottom: 1px solid #EAEAEA;
+
+
+  &__info{
+    display: flex;
+    li{
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 30px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    img{
+      width: 18px;
+      height: 18px;
+      object-fit: contain;
+    }
+    p{
+      color: rgba(157, 157, 157, 1);
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }
+}

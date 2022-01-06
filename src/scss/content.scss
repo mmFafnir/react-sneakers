@@ -1,0 +1,36 @@
+.content{
+  padding: 39px  0px;
+  &__header{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__search{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #F3F3F3;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 18px;
+    i{
+     color: #E4E4E4;
+      font-weight: 400px;
+    }
+    input{
+      flex: 1 1 auto;
+      margin-left: 10px;
+      height: 100%;
+    }
+  }
+  h1{
+    font-weight: 700;
+    font-size: 32px;
+  }
+  &__body{
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+}
+
