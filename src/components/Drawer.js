@@ -72,7 +72,7 @@ function Drawer({ setCartOpen}) {
                         {data.map(obj => (
                             <div key={obj.id} className="cart-item">
                               <div className="cart-item__img">
-                                <img src={obj.imgUrl} alt=""/>
+                                <img src={`/react-sneakers/${obj.imgUrl}`} alt=""/>
                               </div>
                               <div className="cart-item__text">
                                 <h4>{obj.name}</h4>
