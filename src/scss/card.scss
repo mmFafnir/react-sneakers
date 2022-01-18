@@ -131,3 +131,12 @@
     transform: translateY(-6px);
   }
 }
+
+
+@media (max-width: 450px) {
+  .card{
+
+    flex: 0 0 193px;
+    padding: 20px;
+  }
+}

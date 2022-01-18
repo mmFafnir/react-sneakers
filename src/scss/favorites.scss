@@ -55,3 +55,25 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .favorites{
+    
+
+    &__content{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .favorites{
+    
+
+      h1{
+        font-size: 25px;
+      }
+
+  }
+}

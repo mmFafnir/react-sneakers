@@ -31,3 +31,25 @@
     }
   }
 }
+
+
+@media (max-width:450px) {
+  .header{
+    height: 70px;
+    &__info{
+      align-items: center;
+      li{
+        margin-right: 5px;
+
+        img{
+          width: 14px;
+          height: 14px;
+        }
+        a{
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+}

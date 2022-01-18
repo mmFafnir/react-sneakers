@@ -44,10 +44,10 @@ function Orders() {
       ) : (
         <div className='orders__list'>
           <ul className='orders__list_desc'>
-            <li>Номер заказа</li>
-            <li>Дата</li>
-            <li>Количество</li>
-            <li>Сумма</li>
+            <li className='orders__number'>Номер заказа</li>
+            <li className='orders__date'>Дата</li>
+            <li className='orders__quantity'>Количество</li>
+            <li className='orders__sum'>Сумма</li>
           </ul>
           {
             data.map(order => (

@@ -20,3 +20,19 @@
 
 }
 
+@media (max-width: 450px) {
+  .logo{
+    &__img{
+      width: 30px;
+      height: 30px;
+    }
+    &__text{
+      h2{
+        font-size: 12px;
+      }
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+}

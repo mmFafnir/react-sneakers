@@ -34,3 +34,28 @@
   }
 }
 
+@media (max-width: 900px) {
+  .content{
+
+    &__body{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .content{
+
+    &__header{
+      flex-wrap: wrap;
+      h1{
+        font-size: 25px;
+      }
+    }
+
+    &__search{
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+  }
+}

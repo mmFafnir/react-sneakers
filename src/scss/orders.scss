@@ -148,3 +148,52 @@
         color: #FCB858;
     }
 }
+
+
+@media (max-width:678px) {
+    .orders{
+        h1{
+            font-size: 20px;
+        }
+        &__list{
+            font-size: 16px;
+        }
+        &__date{
+            display: none;
+        }
+        &__quantity{
+            display: none;
+        }
+    }
+    .order{
+
+        &__header{
+
+            font-size: 15px;
+        }
+        &__date{
+            display: none;
+        }
+        &__quantity{
+            display: none;
+        }
+
+        &-goods__item{
+            li{
+
+                font-size: 12px;
+
+                &:first-child{
+                    margin-right: 5px;
+                    line-height: 1.3;
+                }
+            }
+        }
+
+        &-delet{
+            padding: 5px 12px;
+            font-size: 15px;
+        }
+
+    }
+}
